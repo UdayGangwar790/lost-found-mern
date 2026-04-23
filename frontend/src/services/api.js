@@ -1,7 +1,7 @@
 import axios from "axios";
 
 const API = axios.create({
-  baseURL: "https://backend-sktr.onrender.com"
+  baseURL: "https://backend-sktr.onrender.com/api"  // ✅ FIXED
 });
 
 // Token attach
